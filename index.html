@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web baaaguena / inici</title>
+    <meta name="description" content="Álvaro Bàguena, dissenyador gràfic i fotògraf de València. Branding, fotografia esportiva i identitat visual per a marques que volen destacar.">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+    <!--header-->
+    <nav class="navbar navbar-expand-lg navbar-dark linea-abajo navbar-bg">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <img src="img/logo2.png" alt="logo baaaguena" height="90">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Inici</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Serveis</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobremi.html">Sobre mí</a></li>
+          </ul>
+          <a href="contactos.html" class="btn btn-outline-light fw-bold">CONTACTE</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--hiro-->
+    <section class="hero">
+      <div class="container">
+        <div class="col-lg-6 ms-1">
+          <h1 class="display-2 fw-bold">LA DIFERÈNCIA <br> ÉS LA <br><span class="hero-accent">CONSTÀNCIA</span></h1>
+          <a href="servicios.html" class="btn btn-light btn-lg me-2">Veure serveis</a>
+          <a href="galeria.html" class="btn btn-outline-light btn-lg">Veure galeria</a>
+        </div>
+      </div>
+    </section>
+
+    <!--carrusel-->
+    <div class="section-bg">
+      <div class="container py-4">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/foto-carrusel-2.webp" class="d-block w-100" alt="foto portero Paterna CF">
+            </div>
+            <div class="carousel-item">
+              <img src="img/foto-carrusel-1.webp" class="d-block w-100" alt="foto hermanos futbolistas">
+            </div>
+            <div class="carousel-item">
+              <img src="img/foto-carrusel-3.webp" class="d-block w-100" alt="foto awa fam valencia basket femenino">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--presentació breu-->
+    <section class="p-3 py-5 section-bg">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h5 class="section-heading-accent mb-3">QUI SOC?</h5>
+            <p class="section-text">
+              Me presente, soc Álvaro Bàguena, dissenyador gràfic i fotògraf de València.
+              Tracte la creativitat com una eina de comunicació per a donar impuls a la teua marca.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="section-heading-accent mb-3">QUÈ FAIG?</h5>
+            <p class="section-text">
+              Em dedique a la fotografia esportiva, la fotografia de producte
+              i el branding, combinant creativitat, tècnica i sensibilitat visual en cada projecte.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="section-heading-accent mb-3">COM HO FAIG?</h5>
+            <p class="section-text">
+              La dinàmica de creació te la visió posada en l'usuari. La investigació
+              inicial es centra en la búsqueda d'una experiència òptima del resultat
+              final basat en el públic objectiu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--passió esforç cultura-->
+    <section class="section-bg">
+      <div class="container py-5 text-center lineas">
+        <h2 class="fw-bold text-white">PASSIÓ, ESFORÇ I CULTURA</h2>
+      </div>
+    </section>
+
+    <!--galería-->
+    <section class="py-5 section-bg">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="fw-bold text-white mb-0">Galeria seleccionada</h5>
+          <a href="galeria.html" class="section-heading-accent text-decoration-none">veure galeria →</a>
+        </div>
+        <div class="row g-2 mb-2">
+          <div class="col-md-3 position-relative foto-hover">
+            <a href="img/galeria1.webp" target="_blank">
+              <img src="img/galeria1.webp" class="w-100 galeria-img" alt="foto 1">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="bi bi-zoom-in hero-accent" style="font-size: 2rem;"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 position-relative foto-hover">
+            <a href="img/galeria2.webp" target="_blank">
+              <img src="img/galeria2.webp" class="w-100 galeria-img" alt="foto 2">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="bi bi-zoom-in hero-accent" style="font-size: 2rem;"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 position-relative foto-hover">
+            <a href="img/galeria3.webp" target="_blank">
+              <img src="img/galeria3.webp" class="w-100 galeria-img" alt="foto 3">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="bi bi-zoom-in hero-accent" style="font-size: 2rem;"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 position-relative foto-hover">
+            <a href="img/galeria4.webp" target="_blank">
+              <img src="img/galeria4.webp" class="w-100 galeria-img" alt="foto 4">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="bi bi-zoom-in hero-accent" style="font-size: 2rem;"></span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-md-3 position-relative foto-hover">
+            <a href="img/galeria5.webp" target="_blank">
+              <img src="img/galeria5.webp" class="w-100 galeria-img" alt="foto 5">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="bi bi-zoom-in hero-accent" style="font-size: 2rem;"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 position-relative foto-hover">
+            <a href="img/galeria6.webp" target="_blank">
+              <img src="img/galeria6.webp" class="w-100 galeria-img" alt="foto 6">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="bi bi-zoom-in hero-accent" style="font-size: 2rem;"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 position-relative foto-hover">
+            <a href="img/galeria7.webp" target="_blank">
+              <img src="img/galeria7.webp" class="w-100 galeria-img" alt="foto 7">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="bi bi-zoom-in hero-accent" style="font-size: 2rem;"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 position-relative foto-hover">
+            <a href="img/galeria8.webp" target="_blank">
+              <img src="img/galeria8.webp" class="w-100 galeria-img" alt="foto 8">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="bi bi-zoom-in hero-accent" style="font-size: 2rem;"></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CTA-->
+    <section class="py-5 text-center section-bg">
+      <div class="container">
+        <h3 class="fw-bold text-white display-7 mb-3">SI T'HA AGRADAT EL MEU TREBALL<br>CONTACTA AMB MI</h3>
+        <p class="cta-subtext mb-4">Branding, direcció visual i fotografia</p>
+        <a href="contactos.html" class="btn btn-light btn-lg fw-bold">CONTACTA AMB MI</a>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-4">
+            <a href="index.html">
+              <img src="img/logo2.png" alt="logo baaaguena" height="40" class="mb-3">
+            </a>
+            <p class="footer-text">Disseny gràfic i fotografia esportiva.<br>Branding, identitat visual i fotografia de producte.</p>
+            <div class="d-flex gap-4 mt-3">
+              <a href="https://www.behance.net/baaaguena" class="footer-icon"><span class="bi bi-behance"></span></a>
+              <a href="https://www.instagram.com/baaaguena/" class="footer-icon"><span class="bi bi-instagram"></span></a>
+              <a href="mailto:baguenafernandez@gmail.com" class="footer-icon"><span class="bi bi-envelope"></span></a>
+              <a href="www.linkedin.com/in/bàguena-fernández" class="footer-icon"><span class="bi bi-linkedin"></span></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold text-white mb-3">PÀGINES</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="index.html" class="footer-link">Inici</a></li>
+              <li class="mb-2"><a href="servicios.html" class="footer-link">Serveis</a></li>
+              <li class="mb-2"><a href="galeria.html" class="footer-link">Galeria</a></li>
+              <li class="mb-2"><a href="sobre-mi.html" class="footer-link">Sobre mi</a></li>
+              <li class="mb-2"><a href="contactos.html" class="footer-link">Contacte</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold text-white mb-3">CONTACTE</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2 footer-text">baguenafernandez@gmail.com</li>
+              <li class="mb-2 footer-text">+34 601 758 935</li>
+              <li class="mb-2 footer-text">València, Espanya</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lineas mt-4 pt-4">
+          <p class="mb-0 footer-copyright">© 2026 baaaguena. Tots els drets reservats.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

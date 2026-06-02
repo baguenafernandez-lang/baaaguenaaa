@@ -1,0 +1,336 @@
+/* ============================================================
+   VARIABLES GLOBALS
+   ============================================================ */
+:root {
+  --color-fondo:    #0b1223;
+  --color-amarillo: #ebe87e;
+  --color-gris:     #8A94A0;
+  --color-fondo2:   #08101b;
+  --color-blanco:   #ffffff;
+  --color-card-bg:  transparent;
+  --font-display:   "Inter", sans-serif;
+  --font-body:      "Inter", sans-serif;
+}
+
+/* ============================================================
+   HEADER / NAV
+   ============================================================ */
+.header {
+  background-color: var(--color-amarillo);
+  color: var(--color-oscuro2);
+}
+
+.navbar-bg {
+  background-color: var(--color-fondo);
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  background: var(--color-fondo);
+  color: white;
+  padding: 60px 0;
+}
+
+.hero-accent {
+  color: var(--color-amarillo);
+}
+
+/* ============================================================
+   CARRUSEL
+   ============================================================ */
+.section-bg {
+  background-color: var(--color-fondo);
+}
+
+#carouselExampleAutoplaying {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+/* ============================================================
+   PRESENTACIÓ
+   ============================================================ */
+.section-heading-accent {
+  color: var(--color-amarillo);
+  font-weight: bold;
+}
+
+.section-text {
+  color: var(--color-gris);
+}
+
+/* ============================================================
+   LÍNIES SEPARADORES
+   ============================================================ */
+.lineas {
+  border-top: 0.3px solid var(--color-gris);
+  border-bottom: 0.3px solid var(--color-gris);
+}
+
+.linea-abajo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* ============================================================
+   BOTONS
+   ============================================================ */
+.btn {
+  border-radius: 50px;
+}
+
+.btn-light {
+  background-color: var(--color-amarillo);
+  border-color: var(--color-amarillo);
+  color: var(--color-fondo);
+  transition: all 0.6s ease;
+}
+
+.btn-light:hover {
+  background-color: var(--color-amarillo);
+  border-color: var(--color-amarillo);
+  opacity: 0.65;
+}
+
+.btn-outline-light {
+  border-color: var(--color-amarillo);
+  color: var(--color-amarillo);
+  transition: all 0.8s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: var(--color-amarillo);
+  border-color: var(--color-amarillo);
+  color: var(--color-fondo);
+}
+
+/* ============================================================
+   GALERIA
+   ============================================================ */
+.galeria-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.foto-hover {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-fondo2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.foto-hover:hover .overlay {
+  opacity: 0.75;
+}
+
+/* ============================================================
+   CONTACTE — TARGETES D'INFO
+   ============================================================ */
+.contact-card {
+  border: 1px solid var(--color-gris);
+  border-radius: 8px;
+}
+
+.contact-icon {
+  color: var(--color-amarillo);
+  font-size: 1.5rem;
+}
+
+/* ============================================================
+   FORMULARI
+   ============================================================ */
+.form-control {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-gris);
+  color: var(--color-blanco);
+}
+
+.form-control:focus {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-amarillo);
+  color: var(--color-blanco);
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: var(--color-gris);
+}
+
+/* ============================================================
+   ACCORDION FAQ
+   ============================================================ */
+.accordion-item {
+  background-color: transparent;
+  border-color: var(--color-gris);
+}
+
+.accordion-button {
+  background-color: transparent;
+  color: var(--color-amarillo);
+}
+
+.accordion-body-text {
+  color: var(--color-gris);
+}
+
+/* ============================================================
+   SERVEIS — SECCIONS AMB IMATGE
+   ============================================================ */
+.service-img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.service-number {
+  color: var(--color-amarillo);
+}
+
+/* ============================================================
+   SOBRE MI — INTRO
+   ============================================================ */
+.sobre-mi-foto {
+  max-width: 420px;
+  object-fit: cover;
+  height: 520px;
+  filter: grayscale(20%);
+  width: 100%;
+}
+
+.sobre-mi-label {
+  color: var(--color-amarillo);
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}
+
+.sobre-mi-text {
+  color: var(--color-gris);
+  line-height: 1.9;
+}
+
+.sobre-mi-accent {
+  color: white;
+}
+
+/* ============================================================
+   VALORS
+   ============================================================ */
+.valor-card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.valor-icon {
+  color: var(--color-amarillo);
+  font-size: 2rem;
+}
+
+/* ============================================================
+   HABILITATS I EINES
+   ============================================================ */
+.skill-icon {
+  color: var(--color-amarillo);
+  font-size: 1.3rem;
+}
+
+.eina-card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* ============================================================
+   TRAJECTÒRIA (TIMELINE)
+   ============================================================ */
+.timeline-year {
+  color: var(--color-amarillo);
+  min-width: 80px;
+  text-align: right;
+}
+
+.timeline-line {
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  padding-left: 2rem;
+  position: relative;
+}
+
+.timeline-line-dashed {
+  border-left: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-left: 2rem;
+  position: relative;
+}
+
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  background: var(--color-amarillo);
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  top: 6px;
+}
+
+.timeline-dot-outline {
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--color-amarillo);
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  top: 6px;
+}
+
+/* ============================================================
+   FAQ — LÍNIA DECORATIVA
+   ============================================================ */
+.faq-divider {
+  width: 50px;
+  height: 3px;
+  background-color: var(--color-amarillo);
+  margin: 1.5rem auto 3rem;
+}
+
+/* ============================================================
+   CTA
+   ============================================================ */
+.cta-subtext {
+  color: var(--color-gris);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer {
+  background-color: var(--color-fondo2);
+}
+
+.footer-text {
+  color: var(--color-gris);
+}
+
+.footer-link {
+  color: var(--color-gris);
+  text-decoration: none;
+}
+
+.footer-icon {
+  color: var(--color-gris);
+  font-size: 1.5rem;
+}
+
+.footer-copyright {
+  color: var(--color-gris);
+}

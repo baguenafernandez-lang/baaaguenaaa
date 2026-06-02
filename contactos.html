@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacte / Web baaaguena</title>
+    <meta name="description" content="Tens un projecte en ment? Contacta amb Álvaro Bàguena per a pressupostos de branding, fotografia i disseny gràfic a València.">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+    <!--header-->
+    <nav class="navbar navbar-expand-lg navbar-dark linea-abajo navbar-bg">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <img src="img/logo2.png" alt="logo baaaguena" height="90">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link " href="index.html">Inici</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Serveis</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobremi.html">Sobre mí</a></li>
+          </ul>
+          <a href="contactos.html" class="btn btn-outline-light fw-bold">CONTACTE</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--contacte-->
+    <section class="py-5 section-bg">
+      <div class="container">
+        <div class="row g-5">
+
+          <!-- columna esquerra: info -->
+          <div class="col-lg-5">
+
+            <!-- localització -->
+            <div class="contact-card p-3 mb-3">
+              <div class="d-flex align-items-center gap-3">
+                <span class="bi bi-geo-alt contact-icon"></span>
+                <div>
+                  <p class="fw-bold text-white mb-0">LOCALITZACIÓ</p>
+                  <p class="section-text mb-0">València, Espanya</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- email -->
+            <div class="contact-card p-3 mb-3">
+              <div class="d-flex align-items-center gap-3">
+                <span class="bi bi-envelope contact-icon"></span>
+                <div>
+                  <p class="fw-bold text-white mb-0">EMAIL</p>
+                  <p class="section-text mb-0">baguenafernandez@gmail.com</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- telèfon -->
+            <div class="contact-card p-3 mb-3">
+              <div class="d-flex align-items-center gap-3">
+                <span class="bi bi-telephone contact-icon"></span>
+                <div>
+                  <p class="fw-bold text-white mb-0">TELÈFON</p>
+                  <p class="section-text mb-0">+34 601 758 935</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- serveis disponibles -->
+            <div class="contact-card p-3 mt-3">
+              <p class="fw-bold text-white mb-3">SERVEIS DISPONIBLES</p>
+              <div class="row">
+                <div class="col-6">
+                  <p class="section-text mb-2"><span class="bi bi-check hero-accent"></span> Branding</p>
+                  <p class="section-text mb-2"><span class="bi bi-check hero-accent"></span> Foto Producte</p>
+                </div>
+                <div class="col-6">
+                  <p class="section-text mb-2"><span class="bi bi-check hero-accent"></span> Foto Esportiva</p>
+                  <p class="section-text mb-2"><span class="bi bi-check hero-accent"></span> Carteleria</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- columna dreta: formulari -->
+          <div class="col-lg-7">
+            <h2 class="fw-bold text-white display-5 mb-2">CONTACTA<br>AMB NOSALTRES</h2>
+            <p class="section-text mb-4">Necessites ajuda amb les teues idees?</p>
+
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Nom i cognoms*">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email*">
+              </div>
+              <div class="row mb-3">
+                <div class="col-6">
+                  <input type="tel" class="form-control" placeholder="Telèfon">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control" placeholder="Servei*">
+                </div>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" rows="5" placeholder="Missatge*"></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-light btn-lg fw-bold">ENVIAR</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--FAQ-->
+    <section class="py-5 text-center section-bg">
+      <div class="container">
+        <h2 class="fw-bold text-white display-5 mb-2">PREGUNTES FREQÜENTS</h2>
+        <p class="section-text">Les respostes als dubtes més habituals</p>
+
+        <div class="faq-divider"></div>
+
+        <div class="accordion accordion-flush text-start" id="faq">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
+                COM FUNCIONA EL PROCÉS DE TREBALL?
+              </button>
+            </h2>
+            <div id="faq-1" class="accordion-collapse collapse" data-bs-parent="#faq">
+              <div class="accordion-body section-text">
+                El procés comença amb una reunió inicial per entendre el teu projecte, objectius i necessitats. A partir d'aquí es defineix una proposta i un pressupost. Un cop acceptat, s'inicia la fase de disseny amb revisions periòdiques fins arribar al resultat final.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
+                QUANT TARDA UN PROJECTE DE BRANDING?
+              </button>
+            </h2>
+            <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq">
+              <div class="accordion-body section-text">
+                Depèn de la complexitat del projecte. Un logotip bàsic pot estar llest en 1-2 setmanes. Una identitat completa sol requerir entre 4 i 8 setmanes. Per a la fotografia, els terminis solen ser de 1-2 setmanes des de la sessió.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
+                TREBALLES FORA DE VALÈNCIA?
+              </button>
+            </h2>
+            <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq">
+              <div class="accordion-body section-text">
+                Sí, treballo amb clients de tota Espanya i també internacionalment. Els projectes de disseny i branding es gestionen 100% en remot. Per a sessions fotogràfiques fora de València es pot aplicar un cost addicional de desplaçament.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+                QUIN ÉS EL PRESSUPOST MÍNIM?
+              </button>
+            </h2>
+            <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq">
+              <div class="accordion-body section-text">
+                Cada projecte és diferent i el pressupost s'adapta a les necessitats de cada client. Contacta'm per explicar-me el teu projecte i t'envio una proposta sense compromís.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-4">
+            <a href="index.html">
+              <img src="img/logo2.png" alt="logo baaaguena" height="40" class="mb-3">
+            </a>
+            <p class="footer-text">Disseny gràfic i fotografia esportiva.<br>Branding, identitat visual i fotografia de producte.</p>
+            <div class="d-flex gap-4 mt-3">
+              <a href="https://www.behance.net/baaaguena" class="footer-icon"><span class="bi bi-behance"></span></a>
+              <a href="https://www.instagram.com/baaaguena/" class="footer-icon"><span class="bi bi-instagram"></span></a>
+              <a href="mailto:baguenafernandez@gmail.com" class="footer-icon"><span class="bi bi-envelope"></span></a>
+              <a href="www.linkedin.com/in/bàguena-fernández" class="footer-icon"><span class="bi bi-linkedin"></span></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold text-white mb-3">PÀGINES</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="index.html" class="footer-link">Inici</a></li>
+              <li class="mb-2"><a href="servicios.html" class="footer-link">Serveis</a></li>
+              <li class="mb-2"><a href="galeria.html" class="footer-link">Galeria</a></li>
+              <li class="mb-2"><a href="sobre-mi.html" class="footer-link">Sobre mi</a></li>
+              <li class="mb-2"><a href="contactos.html" class="footer-link">Contacte</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold text-white mb-3">CONTACTE</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2 footer-text">baguenafernandez@gmail.com</li>
+              <li class="mb-2 footer-text">+34 601 758 935</li>
+              <li class="mb-2 footer-text">València, Espanya</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lineas mt-4 pt-4">
+          <p class="mb-0 footer-copyright">© 2026 baaaguena. Tots els drets reservats.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
